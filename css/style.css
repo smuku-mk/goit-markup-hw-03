@@ -1,0 +1,158 @@
+:root {
+  --brand-color: #2196f3;
+  --white-color: #ffffff;
+  --text-color: #757575;
+  --body-color: #212121;
+  --black-color: #000000;
+  --background-portfolio-buttons-color: #f5f4fa;
+  --contacts-footer-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--body-color);
+}
+
+/* logo */
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: var(--black-color);
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: var(--white-color);
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-web {
+  color: var(--brand-color);
+}
+
+/* nav */
+.nav-links {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.nav-links:focus,
+.nav-links:hover {
+  color: var(--brand-color);
+}
+.nav-portfolio {
+  color: var(--brand-color);
+}
+
+/* contacts */
+.contacts-header {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.contacts-header:focus,
+.contacts-header:hover {
+  color: var(--brand-color);
+}
+.contacts-footer {
+  text-decoration: none;
+  color: var(--contacts-footer-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.contacts-footer:focus,
+.contacts-footer:hover {
+  color: var(--brand-color);
+}
+.contacts-footer-mail {
+  text-decoration: underline;
+}
+.company-address {
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* buttons */
+.all-buttons {
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button-main {
+  color: var(--white-color);
+  background: var(--brand-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+}
+.buttons-portfolio {
+  background: var(--background-portfolio-buttons-color);
+  color: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.buttons-portfolio:focus,
+.buttons-portfolio:hover {
+  background: var(--brand-color);
+  color: var(--white-color);
+}
+
+/* hero */
+.hero-text {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+/* lorem ipsum */
+.lorem-ipsum-title {
+  color: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.lorem-ipsum-text {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* section our team and what we do */
+.sections-titles {
+  color: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.team-names {
+  color: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-job {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* pictures-section */
+.pictures-titles {
+  color: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.pictures-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
