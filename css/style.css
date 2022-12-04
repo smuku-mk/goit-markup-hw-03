@@ -11,6 +11,9 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--body-color);
 }
+ul {
+  list-style-type: none;
+}
 
 /* logo */
 .logo-header {
@@ -110,6 +113,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-align: center;
 }
 
 /* lorem ipsum */
@@ -156,3 +160,17 @@ body {
   font-size: 16px;
   line-height: 1.88;
 }
+
+/* containers */
+.container-header {
+  display: flex;
+}
+
+.container-hero {
+  display: flex;
+  width: 1600px;
+  background: #2F303A;
+  flex-direction: column;
+  align-items: center;
+}
+
